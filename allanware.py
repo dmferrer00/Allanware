@@ -2,7 +2,7 @@
 import os
 from cryptography.fernet import Fernet
 #let's hack with allan
-import tkinter
+from Tkinter import *
 
 def fake_blue_screen():
     root = tkinter.Tk()
